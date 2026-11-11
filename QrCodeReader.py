@@ -22,7 +22,7 @@ while True:
     cv2.imshow("QR Code Reader", frame)
     stockage.append(data)
 
-    if cv2.waitKey(1) & 0xFF == ord('q'):  # ESC pour quitter
+    if cv2.waitKey(1) & 0xFF == ord('q'):  
         break
 
 cap.release()
